@@ -1,0 +1,43 @@
+body {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexen
+}
+
+.main {
+    
+}
+.car-tipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: 900px;
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding:10px 10px ;
+    overflow: hidden;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%) ;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+ @media screen and (max-width: 600px)
+ {.car-tipes {
+    grid-template-columns: 1fr 1fr;
+    height: 800px;
+ }
+ }
+
+ @media screen and(max-width:399px) { .car-tipes{
+grid-template-columns: 1fr;
+color: pink;
+ }  
+ }
